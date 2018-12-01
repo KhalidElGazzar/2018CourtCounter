@@ -8,32 +8,40 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/team_a_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Team A" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="@string/team_a_label" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/team_a_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="@string/team_a_score" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_team_a_3_pts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+3 points" />
+        android:layout_marginTop="8dp"
+        android:text="@string/button_team_a_3_pts" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_team_a_2_pts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+2 points" />
+        android:layout_marginTop="8dp"
+        android:text="@string/button_team_a_2_pts" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_team_a_free_throw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Free Throw" />
+        android:layout_marginTop="8dp"
+        android:text="@string/button_team_a_free_throw" />
 
 </LinearLayout>
