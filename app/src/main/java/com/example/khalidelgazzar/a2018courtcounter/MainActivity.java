@@ -6,13 +6,15 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int teamAScore = 0;
+    int teamAScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // teamAScore = Integer.parseInt((findViewById(R.id.team_a_score).toString()));
+
+        TextView teamAScoreTemp = (TextView)findViewById(R.id.team_a_score);
+        teamAScore = Integer.parseInt(teamAScoreTemp.getText().toString());
     }
 
     /**
