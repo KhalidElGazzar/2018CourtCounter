@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">2018CourtCounter</string>
+    <string name="team_a_label">Team A</string>
+    <string name="team_a_score">0</string>
+    <string name="button_team_a_3_pts">+3 points</string>
+    <string name="button_team_a_2_pts">+2 points</string>
+    <string name="button_team_a_free_throw">Free Throw</string>
+
+    <string name="team_b_label">Team B</string>
+    <string name="team_b_score">0</string>
+    <string name="button_team_b_3_pts">+3 points</string>
+    <string name="button_team_b_2_pts">+2 points</string>
+    <string name="button_team_b_free_throw">Free Throw</string>
+
+    <string name="button_reset">Reset</string>
 </resources>
