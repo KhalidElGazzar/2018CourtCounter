@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView teamBScoreTemp = (TextView)findViewById(R.id.team_b_score);
         teamBScore = Integer.parseInt(teamBScoreTemp.getText().toString());
-
     }
 
 
@@ -48,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(teamAScore);
     }
 
-
     //Functions to handle Team B
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
@@ -69,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
         teamBScore = teamBScore+3;
         displayForTeamB(teamBScore);
     }
-
 
     public void Reset(android.view.View view)
     {
